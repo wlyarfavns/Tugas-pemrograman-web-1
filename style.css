@@ -22,6 +22,10 @@ body {
     align-items: center;
 }
 
+button.menu-toggle {
+    display: inline-block;
+}
+
 .header .logo {
     color: white;
     font-size: 24px;
@@ -242,4 +246,10 @@ button:hover {
 
 .message.error {
     background-color: #f44336;
+}
+
+@media(max-width: 800px) {
+    .header {
+        flex-direction: column;
+    }
 }

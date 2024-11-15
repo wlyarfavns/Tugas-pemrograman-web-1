@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Mengarahkan ke halaman tujuan setelah 3 detik
             setTimeout(() => {
-                window.location.href = 'https://tugas-pemrograman-web-1-lac.vercel.app/'; // Ganti dengan halaman tujuan yang diinginkan
+                window.location.href = ''; // Ganti dengan halaman tujuan yang diinginkan
             }, 3000);
         } else {
             // Menampilkan pesan error jika ada bidang kosong
